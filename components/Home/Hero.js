@@ -2,13 +2,13 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-[#014e56] pt-4 md:pt-16 pb-40 relative'>
+    <div className='bg-[#014e56] pt-4 md:pt-16 pb-40 relative overflow-x-hidden'>
         <div className='absolute top-0 -left-32 hidden md:flex'>
             <img src="./assets/bg-pattern-home-1.svg" alt="" />
         </div>
         <div className='w-[85%] mx-auto flex flex-col space-y-8 md:space-y-0 md:flex-row space-x-0 md:space-x-10'>
             <div className='flex-[1.3] text-white'>
-                <h1 className='text-[5rem] md:text-[6.6rem] leading-none font-bold'>
+                <h1 className='text-[4rem] w-full md:text-[6.6rem] leading-none font-bold'>
                     Find the best <span className='text-[#f67e7e]'>talent</span>
                 </h1>
             </div>

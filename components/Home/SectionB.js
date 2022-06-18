@@ -3,7 +3,7 @@ import SectionBCard from './SectionBCard'
 
 const SectionB = () => {
   return (
-    <div className='bg-[#004047] py-40 relative'>
+    <div className='bg-[#004047] py-40 relative overflow-x-hidden'>
       <img src="./assets/bg-pattern-home-4-about-3.svg" className='absolute top-0 -left-12' alt="" />
       <img src="./assets/bg-pattern-home-5.svg" className='absolute bottom-0 -right-16' alt="" />
         <div className='w-[85%] mx-auto text-white'>

@@ -3,7 +3,7 @@ import SectionACard from './SectionACard'
 
 const SectionA = () => {
   return (
-    <div className='bg-[#012f34] py-32 relative'>
+    <div className='bg-[#012f34] py-32 relative overflow-x-hidden'>
         <div className='w-[85%] mx-auto '>
             <div className='h-[4px] bg-[#f67e7e] w-16 mb-14 ' />
             <div className='flex flex-col md:flex-row space-x-0 md:space-x-2 space-y-7 md:space-y-0 justify-between'>

@@ -1,8 +1,10 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Hero from '../components/Home/Hero'
 import SectionA from '../components/Home/SectionA'
 import SectionB from '../components/Home/SectionB'
+import PreFooter from '../components/PreFooter'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Hero />
       <SectionA />
       <SectionB />
+      <PreFooter />
+      <Footer />
     </div>
   )
 }
